@@ -12,6 +12,10 @@
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
+  <link href="css/custom.css" rel="stylesheet" >
+   <link href="css/animate.css" rel="stylesheet" >
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
@@ -21,7 +25,7 @@
     }
   </style>
 
-  <title>Imagination Red & White !</title>
+  <title>Imagination | Home </title>
 </head>
 
 <body>
@@ -30,7 +34,7 @@
     <nav class="teal">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Imagination</a>
+          <a href="#" class="brand-logo"><img src= "images/logowhite2.png" height="28" width="110"></a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
@@ -88,7 +92,8 @@
   </div>
 
   <!-- Section: Slider-hero -->
-  <section class="slider scrollspy" id="home">
+  <div class = "hero">
+    <section class="slider scrollspy" id="home">
     <ul class="slides">
       <li>
         <img src="images/hslider1.jpg" alt="hero-slider-image-1" class="responsive-img">
@@ -124,13 +129,15 @@
     </ul>
   </section>
 
+  </div>
+
   <!-- Section: about us -->
   <section class="section scrollspy" id="AboutUs">
     <div class="container">
       <div class="row">
         <div class="col s12 m6 center">
           <h3>About<span class="teal-text"> Imagination</span></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ut labore nobis, adipisci minima ullam quos hic dolores atque distinctio modi, eaque officia voluptatem nesciunt!</p>
+          <p class="wow bounceInDown" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ut labore nobis, adipisci minima ullam quos hic dolores atque distinctio modi, eaque officia voluptatem nesciunt!</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia assumenda, nihil! Distinctio aperiam, porro accusamus sapiente, numquam, optio quibusdam veniam magni inventore repellendus labore hic.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse non numquam cum quia a, explicabo repudiandae necessitatibus sed molestias, itaque, quis fuga.</p>
         </div>
@@ -714,6 +721,8 @@
   <footer class="teal section">
     <h3 class="center large white-text">Imagination &copy; 2018</h3>
   </footer>
+
+
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
