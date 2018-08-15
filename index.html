@@ -31,7 +31,7 @@
 <body>
   <!-- Navbar -->
   <div class="navbar-fixed">
-    <nav class="teal">
+    <nav class="color-nav">
       <div class="container">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo"><img src= "images/logowhite2.png" height="28" width="110"></a>
@@ -96,7 +96,7 @@
     <section class="slider scrollspy" id="home">
     <ul class="slides">
       <li>
-        <img src="images/hslider1.jpg" alt="hero-slider-image-1" class="responsive-img">
+        <img src="images/gallery.jpg" alt="hero-slider-image-1" class="responsive-img">
         <div class="caption right-align">
           <h2>Heading 1</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">Some slogan type of line</h5>
@@ -132,6 +132,7 @@
   </div>
 
   <!-- Section: about us -->
+  <section class="section teal lighten-5 scrollspy" id="team">
   <section class="section scrollspy" id="AboutUs">
     <div class="container">
       <div class="row">
@@ -227,10 +228,14 @@
   </section>
 
   <!-- Gallery -->
+  
+<section class="gallery-color">
   <section id="gallery" class="section scrollspy">
+
     <div class="container">
+
       <h3 class="right-align">
-        Photo <span class="teal-text">Gallery</span>
+         <span class="teal-text">Featured</span> Photos
       </h3>
       <div class="row">
         <div class="col s12 m3">
@@ -287,34 +292,35 @@
       </div>
     </div>
   </section>
+  </section>
 
   <div class="divider">
 
   </div>
 
   <!-- section: Achievements -->
-  <section class="section amber lighten-5 scrollspy" id="Achievement">
+  <section class="section teal lighten-5 scrollspy" id="Achievement">
     <div class="container">
       <div class="row">
-        <h3 class="center-align">Our <span class="teal-text">Achievements</span></h3>
+        <h3 class="center-align"><span class="teal-text">Notable</span> Alumni</h3>
         <div class="col s12 m4 z-depth-4">
-          <div class="card-panel orange darken-4 white-text center">
-            <h3>Heading 1</h3>
+          <div class="card-panel grey darken-3 white-text center">
+            <h3>Dhiyavasu Bhadoriya</h3>
             <p>Lorem ipsum dolor sit amet. Quaerat, ducimus dicta ex iure, fugiat inventore sapiente sequi commodi quidem minima debitis quisquam, tempora enim. Dolore quibusdam reiciendis, laboriosam doloribus quam.</p>
 
             <!-- Modal Btn -->
-            <a class="orange darken-3 z-depth-3 waves-effect waves-purple btn modal-trigger" href="#ach1">Click to read more</a>
+            <a class="orange darken-1 z-depth-3 waves-effect waves-purple btn modal-trigger" href="#ach1">Click to read more</a>
             <!-- Modal Structure -->
             <div id="ach1" class="modal orange darken-3">
               <div class="card-panel white-text orange darken-3">
                 <div class="modal-content">
-                  <h4>Achievement: Three</h4>
+                  <h4>Dhiyavasu Bhadoriya</h4>
                   <img src="https://source.unsplash.com/400x300/?victory" alt="" class="materialboxed responsive-image" width="100%" height="auto">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusantium, nisi dolores doloribus earum quaerat inventore provident velit sequi placeat asperiores ab architecto repellat distinctio soluta ex, ea. Adipisci delectus quod,
                     animi neque sint ea quis corporis non impedit quas!</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam error eius, facere dolorem. Maxime, recusandae.</p>
                 </div>
-                <div class="modal-footer orange darken-3">
+                <div class="modal-footer orange darken-1">
                   <a href="#ach1" class="modal-action modal-close waves-effect waves-red red btn-small">Close [X]</a>
                 </div>
               </div>
@@ -323,24 +329,24 @@
           </div>
         </div>
 
-        <div class="col s12 m4 offset-m4 z-depth-4">
-          <div class="card-panel pink lighten-2 white-text center">
-            <h3>Heading 2</h3>
+        <div class="col s12 m4 offset-m3 z-depth-4">
+          <div class="card-panel blue lighten-1 white-text center">
+            <h3>Mohit Khatri</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ducimus dicta ex iure, fugiat inventore sapiente sequi commodi quidem minima debitis quisquam, tempora enim. Dolore quibusdam reiciendis, laboriosam doloribus quam.</p>
 
             <!-- Modal Btn -->
-            <a class="pink z-depth-3 waves-effect waves-purple btn modal-trigger" href="#ach2">Click to read more</a>
+            <a class="orange darken-1 z-depth-3 waves-effect waves-purple btn modal-trigger" href="#ach2">Click to read more</a>
             <!-- Modal Structure -->
-            <div id="ach2" class="modal pink">
-              <div class="card-panel white-text pink">
+            <div id="ach2" class="modal orange">
+              <div class="card-panel white-text orange">
                 <div class="modal-content">
-                  <h4>Achievement: Three</h4>
+                  <h4>Mohit Khatri</h4>
                   <img src="https://source.unsplash.com/400x300/?victory" alt="" class="materialboxed responsive-image" width="100%" height="auto">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusantium, nisi dolores doloribus earum quaerat inventore provident velit sequi placeat asperiores ab architecto repellat distinctio soluta ex, ea. Adipisci delectus quod,
                     animi neque sint ea quis corporis non impedit quas!</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam error eius, facere dolorem. Maxime, recusandae.</p>
                 </div>
-                <div class="modal-footer pink">
+                <div class="modal-footer orange">
                   <a href="#ach2" class="modal-action modal-close waves-effect waves-red red btn-small">Close [X]</a>
                 </div>
               </div>
@@ -349,30 +355,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col s12 m4 offset-m4 z-depth-4">
-          <div class="card-panel deep-purple lighten-2 white-text center">
-            <h3>Achievement 3</h3>
-            <p>Loreng elit. Quaerat, ducimus dicta ex iure, fugiat inventore sapiente sequi commodi quidem minima debitis quisquam, tempora enim. Dolore quibusdam reiciendis, laboriosam doloribus quam.</p>
-
-            <!-- Modal Btn -->
-            <a class="deep-purple z-depth-3 waves-effect waves-purple btn modal-trigger" href="#ach3">Click to read more</a>
-            <!-- Modal Structure -->
-            <div id="ach3" class="modal deep-purple">
-              <div class="card-panel white-text deep-purple">
-                <div class="modal-content">
-                  <h4>Achievement: Three</h4>
-                  <img src="https://source.unsplash.com/400x300/?party" alt="" class="materialboxed responsive-image" width="100%" height="auto">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusantium, nisi dolores doloribus earum quaerat inventore provident velit sequi placeat asperiores ab architecto repellat distinctio soluta ex, ea. Adipisci delectus quod,
-                    animi neque sint ea quis corporis non impedit quas!</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam error eius, facere dolorem. Maxime, recusandae.</p>
-                </div>
-                <div class="modal-footer deep-purple">
-                  <a href="#ach3" class="modal-action modal-close waves-effect waves-red red btn-small">Close [X]</a>
-                </div>
-              </div>
-            </div>
-
+    
           </div>
         </div>
       </div>
@@ -381,12 +364,14 @@
 
   <!-- Section: Short films -->
   <section class="section lighten-2 center">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <h3>Club Introduction <span class="teal-text">Film</span></h3>
-        <div class="col s12 m8 offset-m2">
-          <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/m_shMDAWw2M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h3><span class="teal-text">Featured</span> Videos</h3>
+        
+        
+            <iframe width="650" height="300" src="https://www.youtube.com/embed/m_shMDAWw2M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="650" height="300" src="https://www.youtube.com/embed/WdPGzFYbcsA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               
           </div>
         </div>
       </div>
@@ -655,7 +640,7 @@
       <a href="#" class="waves-effect waves-purple btn-large white-text red">Read More About Them And Meet The Rest Of The Gang !</a>
     </div>
   </section>
-
+</section>
   <!-- Section: Contact Us -->
   <section class="section section-social scrollspy" id="contact">
     <div class="container">
@@ -716,6 +701,7 @@
         </div>
       </div>
   </section>
+</div>
 
   <!-- Section: Footer -->
   <footer class="teal section">
