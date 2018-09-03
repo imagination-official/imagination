@@ -6648,7 +6648,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 .input-field input[type=search]:focus:not(.browser-default) + label i,
 .input-field input[type=search]:focus:not(.browser-default) ~ .mdi-navigation-close,
 .input-field input[type=search]:focus:not(.browser-default) ~ .material-icons {
-  color: #444;
+  color: #256;
 }
 
 .input-field input[type=search] + .label-icon {
