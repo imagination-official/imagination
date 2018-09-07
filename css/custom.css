@@ -1,18 +1,46 @@
 .color-nav {
-	background-color:  #3E6B7C;
-	opacity: .85;
-
+	background-color:  white;
+	opacity: .8;
+	color: black ! important;
 }
 .gallery-color {
 	background-color: #373F42;
 	opacity: 0.9;
 }
 
+.white{
+	background-color: white; 
+}
 
+.soft-blue{
+	background-color: teal;/*hsl(174,214,150);*/
+}
+
+.bc{
+	ul li {
+		background-color:white;
+	}
+}
 
 .collapsible-header {
 	background-color: #373F42;
-	color: white;
+	color: black;
 	
 }
-a:hover 
+
+.collapsible-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
+  padding: 1rem;
+  background-color: teal lighten-4;
+  border-bottom: 1px solid #ddd;
+}
+
+.input-field input[type=search]:focus:not(.browser-default) ~ .material-icons {
+  color: red !important;
+}
